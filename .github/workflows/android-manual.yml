@@ -1,0 +1,6 @@
+name: manual
+on:
+  workflow_run:
+    workflows: [test]
+    types:
+      - completed
